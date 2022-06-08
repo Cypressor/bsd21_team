@@ -71,4 +71,4 @@ public class StringQueue implements IQueue
     return element;
   }
 
-}s
+}
