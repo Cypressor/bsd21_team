@@ -8,6 +8,21 @@
     <artifactId>bsd21_team</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <url>https://github.com/https://github.com/Cypressor/bsd21_team</url>
+    <!-- developers information, will be used for documentation -->
+    <developers>
+        <developer>
+            <id>Cypressor</id>
+            <name>Martin Lunelli</name>
+            <email>s51166@edu.campus02.at</email>
+            <organization>FH CAMPUS 02</organization>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
+    </developers>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
