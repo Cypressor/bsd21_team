@@ -1,4 +1,4 @@
-# Project QUEUE (Groupwork: Exercsie 7)
+# Project QUEUE (Groupwork: Exercise 7)
 ## Group members:  
 * Christian Graf  
 * Martin Lunelli
@@ -8,3 +8,38 @@
 ## Tasklist:
 - [x] Add Martin's developer information in pom.xml.
 - [x] Add Christian's developer information in pom.xml.
+- [x] Martin adds address to Git repository.
+- [ ] Christian writes README.md.
+- [x] Martin fixes three bugs by using a new branch.
+
+- ### Christian implements:
+    - [ ] Drinks Interface and implementing class
+    - [ ] Creates queue version to manage drinks in queue
+    - [ ] Split methods to the users
+        - [ ] Martin's methods:
+            - [ ] 
+
+        - [ ] Christian's methods:
+            - [ ] 
+
+    - [ ] Create JavaDoc comments for all classes
+
+- ### Martin creates tests:
+    - [ ] creates tests for existing implementation
+    - [ ] creates testfile for new Drinks version with a class of your choice
+    - [ ] discribe in JavaDoc & comments how to test
+        - [ ] Martin's tests:
+            - [ ] 
+
+        - [ ] Christian's tests:
+            - [ ] 
+
+
+- [ ] mvn test works
+
+
+
+
+
+
+
