@@ -4,6 +4,7 @@
 * Martin Lunelli
 <br>
 </br>
-##Tasklist:
-- [x] Add Martin's developer information.
-- [ ] Add Christian's developer information.
+
+## Tasklist:
+- [x] Add Martin's developer information in pom.xml.
+- [x] Add Christian's developer information in pom.xml.

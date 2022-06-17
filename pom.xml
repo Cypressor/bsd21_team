@@ -21,6 +21,16 @@
             </roles>
             <timezone>Europe/Vienna</timezone>
         </developer>
+        <developer>
+            <id>gitchrgr</id>
+            <name>Christian Graf</name>
+            <email>s51168@edu.campus02.at</email>
+            <organization>FH CAMPUS 02</organization>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
     </developers>
 
     <properties>
