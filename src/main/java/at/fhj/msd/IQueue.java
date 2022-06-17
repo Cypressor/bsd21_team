@@ -1,3 +1,10 @@
+/*
+ * bsd21_team / interface IQueue
+ * Handling IQueue
+ * Author: Christian Graf
+ * Last Change: 17.06.2022
+ */
+
 package at.fhj.msd;
 
 // fastly written (not really nice) comments but good enough to understand

@@ -1,3 +1,10 @@
+/*
+ * bsd21_team / class StringQueue
+ * Handling StringQueue
+ * Author: Christian Graf
+ * Last Change: 17.06.2022
+ */
+
 package at.fhj.msd;
 
 import java.util.ArrayList;

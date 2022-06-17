@@ -13,15 +13,13 @@
 - [x] Martin fixes three bugs by using a new branch.
 
 - ### Christian implements:
-    - [ ] Drinks Interface and implementing class
-    - [ ] Creates queue version to manage drinks in queue
+    - [x] Drinks Interface and implementing class
+    - [x] Creates queue version to manage drinks in queue
     - [ ] Split methods to the users
         - [ ] Martin's methods:
-            - [ ] 
-
+            - [ ] All methods of DrinkQueue  
         - [ ] Christian's methods:
-            - [ ] 
-
+            - [ ] All methods of IDrinkQueue
     - [ ] Create JavaDoc comments for all classes
 
 - ### Martin creates tests:
