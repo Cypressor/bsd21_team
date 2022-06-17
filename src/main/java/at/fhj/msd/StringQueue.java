@@ -1,7 +1,5 @@
 package at.fhj.msd;
 
-import at.fhj.msd.IQueue;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -13,11 +11,12 @@ import java.util.NoSuchElementException;
 public class StringQueue implements IQueue
 {
 
-  private List<String> elements = new ArrayList<String>();
+  private List<String> elements = new ArrayList<>();
   private int maxSize = 5;
 
-  public StringQueue(int maxsize) {
-    maxSize = maxSize;
+  public StringQueue(int maxSize) //fixed typo (Cypressor 17/06/2022)
+  {
+    this.maxSize = maxSize; // changed maxSize to this.maxSize (Cypressor 17/06/2022)
   }
 
   @Override
@@ -34,7 +33,7 @@ public class StringQueue implements IQueue
   public String poll() {
     String element = peek();
 
-    if (elements.size() == 0) {
+    if (elements.size() > 0) { //changed '==' to '>' (Cypressor 17/06/2022)
       elements.remove(0);
     }
 
@@ -71,4 +70,4 @@ public class StringQueue implements IQueue
     return element;
   }
 
-}
+} //fixed typo (Cypressor 17/06/2022)
