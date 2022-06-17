@@ -11,12 +11,21 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * This testclass tests the SimpleDrink class
+ */
+
 public class SimpleDrinkTests
 {
     @BeforeEach
     void setUp()
     {
     }
+
+    /**
+     * Testing getVolume() method of the SimpleDrink class by creating a SimpleDrink object and calling
+     * the getVolume() method.
+     */
 
     @Test
     void getVolumeTest()
@@ -26,6 +35,11 @@ public class SimpleDrinkTests
         assertEquals(500,banger.getVolume(),"expected: 500");
     }
 
+    /**
+     * Testing getAlcoholPercent() method of the SimpleDrink class by creating a SimpleDrink object and calling
+     * the getAlcoholPercent() method.
+     */
+
     @Test
     void getAlcoholPercentTest()
     {
@@ -34,6 +48,11 @@ public class SimpleDrinkTests
         assertEquals(38,banger.getAlcoholPercent(),"expected: 38");
     }
 
+    /**
+     * Testing isAlcoholic() method of the SimpleDrink class by creating a SimpleDrink object and calling
+     * the isAlcoholic() method.
+     */
+
     @Test
     void isAlcoholicTest1()
     {
@@ -41,6 +60,11 @@ public class SimpleDrinkTests
         SimpleDrink banger = new SimpleDrink("Banger",gin);
         assertEquals(true,banger.isAlcoholic(),"expected: true");
     }
+
+    /**
+     * Testing isAlcoholic() method of the SimpleDrink class by creating a SimpleDrink object and calling
+     * the isAlcoholic() method.
+     */
 
     @Test
     void isAlcoholicTest2()
