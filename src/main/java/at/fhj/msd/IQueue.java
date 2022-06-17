@@ -7,29 +7,31 @@
 
 package at.fhj.msd;
 
-// fastly written (not really nice) comments but good enough to understand
+/**
+ * interface for the string queue
+ */
 public interface IQueue {
-  /* 
+  /**
   add object to queue, return true if works, otherwise false
   */
   public abstract boolean offer(String obj);
 
-  /* 
+  /**
   returns and deletes first element; null if no element in there
    */
   public abstract String poll();
 
-  /* 
-  like poll but if no elment exists NoSuchElementException is throwin instead of null return value
+  /**
+  like poll but if no element exists NoSuchElementException is thrown instead of null return value
    */
   public abstract String remove();
 
-  /* 
+  /**
   gives first element but does not delete, null if nothing there
    */
   public abstract String peek();
 
-  /*
+  /**
   like peek but NoSuchElementException instead of null
    */
   public abstract String element();

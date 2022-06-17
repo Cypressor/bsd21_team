@@ -11,17 +11,34 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
+/**
+ * Base class for a queue of drinks
+ */
 public class DrinkQueue implements IDrinkQueue
 {
-
+  /**
+   * list of Drinks
+   */
   private List<Drink> elements = new ArrayList<>();
+  /**
+   * maximum size of list
+   */
   private int maxSize = 5;
 
-  public DrinkQueue(int maxSize) //fixed typo (Cypressor 17/06/2022)
+  /**
+   * creates an empty queue of drinks
+   * @param maxSize maximum size of the queue
+   */
+  public DrinkQueue(int maxSize)
   {
-    this.maxSize = maxSize; // changed maxSize to this.maxSize (Cypressor 17/06/2022)
+    this.maxSize = maxSize;
   }
 
+  /**
+   * adds a drink to the queue
+   * @param drink the drink to add to the queue
+   * @return true if successful, false if queue is full
+   */
   @Override
   public boolean offer(Drink drink) {
     if (elements.size() != maxSize)
@@ -32,17 +49,25 @@ public class DrinkQueue implements IDrinkQueue
     return true;
   }
 
+  /**
+   * pulls a drink from the queue and deletes queue entry
+   * @return the first element of the queue, returns null if queue is empty
+   */
   @Override
   public Drink poll() {
     Drink element = peek();
 
-    if (elements.size() > 0) { //changed '==' to '>' (Cypressor 17/06/2022)
+    if (elements.size() > 0) {
       elements.remove(0);
     }
 
     return element;
   }
 
+  /**
+   * removes the first element from the queue
+   * @return null
+   */
   @Override
   public Drink remove() {
     Drink element = poll();
@@ -54,6 +79,10 @@ public class DrinkQueue implements IDrinkQueue
     return element;
   }
 
+  /**
+   * takes a look at the first element of the queue
+   * @return first element, null if queue is empty
+   */
   @Override
   public Drink peek() {
     Drink element;
@@ -65,6 +94,10 @@ public class DrinkQueue implements IDrinkQueue
     return element;
   }
 
+  /**
+   * takes a look at the first element of the queue
+   * @return first element, throws exception if queue is empty
+   */
   @Override
   public Drink element() {
     Drink element = peek();
@@ -74,4 +107,4 @@ public class DrinkQueue implements IDrinkQueue
     return element;
   }
 
-} //fixed typo (Cypressor 17/06/2022)
+}

@@ -11,21 +11,34 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-// there's some Bugs included, try to debug the code and fix the Bugs
-// there are different Bugs, wrong implementation, typos, ...
-// write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
-
+/**
+ * Base class for a queue of strings
+ */
 public class StringQueue implements IQueue
 {
-
+  /**
+   * list of strings
+   */
   private List<String> elements = new ArrayList<>();
+  /**
+   * maximum size of list
+   */
   private int maxSize = 5;
 
+  /**
+   * creates an empty queue of strings
+   * @param maxSize maximum size of the queue
+   */
   public StringQueue(int maxSize) //fixed typo (Cypressor 17/06/2022)
   {
     this.maxSize = maxSize; // changed maxSize to this.maxSize (Cypressor 17/06/2022)
   }
 
+  /**
+   * adds a string to the queue
+   * @param obj the drink to add to the queue
+   * @return true if successful, false if queue is full
+   */
   @Override
   public boolean offer(String obj) {
     if (elements.size() != maxSize)
@@ -36,6 +49,10 @@ public class StringQueue implements IQueue
     return true;
   }
 
+  /**
+   * pulls a string from the queue and deletes queue entry
+   * @return the first element of the queue, returns null if queue is empty
+   */
   @Override
   public String poll() {
     String element = peek();
@@ -47,6 +64,10 @@ public class StringQueue implements IQueue
     return element;
   }
 
+  /**
+   * removes the first element from the queue
+   * @return null
+   */
   @Override
   public String remove() {
     String element = poll();
@@ -57,6 +78,10 @@ public class StringQueue implements IQueue
     return element;
   }
 
+  /**
+   * takes a look at the first element of the queue
+   * @return first element, null if queue is empty
+   */
   @Override
   public String peek() {
     String element;
@@ -68,6 +93,10 @@ public class StringQueue implements IQueue
     return element;
   }
 
+  /**
+   * takes a look at the first element of the queue
+   * @return first element, throws exception if queue is empty
+   */
   @Override
   public String element() {
     String element = peek();

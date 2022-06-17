@@ -20,7 +20,7 @@
             - [x] All methods of DrinkQueue  
         - [x] Christian's methods:
             - [x] All methods of IDrinkQueue
-    - [ ] Create JavaDoc comments for all classes
+    - [x] Create JavaDoc comments for all classes
 
 - ### Martin creates tests:
     - [ ] creates tests for existing implementation
