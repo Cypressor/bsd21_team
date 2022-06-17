@@ -16,23 +16,23 @@
     - [x] Drinks Interface and implementing class
     - [x] Creates queue version to manage drinks in queue
     - [x] Split methods to the users
-        - [x] Martin's methods:
+        - Martin's methods:
             - [x] All methods of DrinkQueue  
-        - [x] Christian's methods:
+        - Christian's methods:
             - [x] All methods of IDrinkQueue
     - [x] Create JavaDoc comments for all classes
 
 - ### Martin creates tests:
-    - [ ] creates tests for existing implementation
-    - [ ] creates testfile for new Drinks version with a class of your choice
+    - [x] creates tests for existing implementation
+    - [x] creates testfile for new Drinks version with a class of your choice
     - [ ] discribe in JavaDoc & comments how to test
-        - [ ] Martin's tests:
-            - [ ] SimpleDrink
-            - [ ] DrinkQueue
-            - [ ] Cocktail
-        - [ ] Christian's tests:
-            - [ ] Liquid
-            - [ ] StringQueue
+        - Martin's tests:
+            - [x] SimpleDrink
+            - [x] DrinkQueue
+            - [x] Cocktail
+        - Christian's tests:
+            - [x] Liquid
+            - [x] StringQueue
 
 - [ ] mvn test works
 

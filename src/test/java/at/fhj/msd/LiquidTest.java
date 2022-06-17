@@ -17,18 +17,27 @@ public class LiquidTest {
     public void setUp() {
     }
 
+    /**
+     * check getter of method getName
+     */
     @Test
     public void getNameTest() {
         Liquid icetea = new Liquid("Icetea", 250, 0);
         assertEquals("Icetea", icetea.getName(),"expected icetea");
     }
 
+    /**
+     * check getter of method getVolume
+     */
     @Test
     public void getVolumeTest() {
         Liquid cola = new Liquid("Cola", 330, 0);
         assertEquals(330, cola.getVolume(),"expected cola");
     }
 
+    /**
+     * check getter of method getAlcoholPercent
+     */
     @Test
     public void getAlcoholPercentTest() {
         Liquid beer = new Liquid("Beer", 500, 5.1);
