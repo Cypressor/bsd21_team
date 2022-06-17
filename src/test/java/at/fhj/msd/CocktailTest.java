@@ -9,16 +9,21 @@ package at.fhj.msd;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+/**
+ * This testclass tests the cocktail class
+ */
 
 public class CocktailTest
 {
     @BeforeEach
-    void setUp()
-    {
+    void setUp() {}
 
-    }
+    /**
+     * Testing getVolume() method of the cocktail class by creating a cocktail object and calling
+     * the getVolume() method.
+     */
 
     @Test
     void getVolumeTest()
@@ -30,6 +35,11 @@ public class CocktailTest
         assertEquals(250,genericCocktail.getVolume(), "expected: 250");
     }
 
+    /**
+     * Testing getAlcoholPercent() method of the cocktail class by creating a cocktail object and calling
+     * the getAlcoholPercent() method.
+     */
+
     @Test
     void getAlcoholPercentTest()
     {
@@ -39,6 +49,10 @@ public class CocktailTest
         Cocktail genericCocktail = new Cocktail("genericCocktail",l1,l2,l3);
         assertEquals(12.4,genericCocktail.getAlcoholPercent(), "expected: 12.4");
 
+        /**
+         * Testing isAlcoholic method of the cocktail class by creating a cocktail object and calling
+         * the isAlcoholic() method.
+         */
 
     }
     @Test
@@ -50,6 +64,11 @@ public class CocktailTest
         Cocktail genericCocktail = new Cocktail("genericCocktail",l1,l2,l3);
         assertEquals(true,genericCocktail.isAlcoholic(), "expected: true");
     }
+
+    /**
+     * Testing isAlcoholic method of the cocktail class by creating a cocktail object and calling
+     * the isAlcoholic() method.
+     */
 
     @Test
     void isAlcoholicTest2()
