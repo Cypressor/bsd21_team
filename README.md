@@ -27,11 +27,12 @@
     - [ ] creates testfile for new Drinks version with a class of your choice
     - [ ] discribe in JavaDoc & comments how to test
         - [ ] Martin's tests:
-            - [ ] 
-
+            - [ ] Drink
+            - [ ] SimpleDrink
+            - [ ] DrinkQueue
         - [ ] Christian's tests:
-            - [ ] 
-
+            - [ ] Liquid
+            - [ ] StringQueue
 
 - [ ] mvn test works
 
