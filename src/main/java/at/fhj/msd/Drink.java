@@ -8,7 +8,7 @@
 package at.fhj.msd;
 
 /**
- * Abstract base class for concrete drink classes
+ * abstract base class for concrete drink classes
  */
 public abstract class Drink {
     /**
@@ -16,7 +16,7 @@ public abstract class Drink {
      */
     protected String name;
     /**
-     * Creates a Drink object with given name
+     * creates a Drink object with given name
      *
      * @param name name of the drink
      *
@@ -25,26 +25,26 @@ public abstract class Drink {
         this.name = name;
     }
     /**
-     * Calculates and returns volume of drink
+     * calculates and returns volume of drink
      *
      * @return the volume of drink in liter
      */
     public abstract double getVolume();
     /**
-     * Calculates and returns the alcohol percentage
+     * calculates and returns the alcohol percentage
      *
      * @return alcohol volume percent (e.g. 50)
      */
     public abstract double getAlcoholPercent();
     /**
-     * Gives information if drink is alcoholic or not
+     * gives information if drink is alcoholic or not
      *
      * @return true when alcoholic liquids are present, otherwise false
      */
     public abstract boolean isAlcoholic();
 
     /**
-     * getter
+     * getter for name
      * @return name
      */
 
@@ -52,7 +52,7 @@ public abstract class Drink {
         return name;
     }
     /**
-     * setter
+     * setter for name
      */
 
     public void setName(String name) {

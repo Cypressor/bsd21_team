@@ -3,9 +3,9 @@
     <version position="left"/>
     <body>
 
-        <menu name="Overview">
-            <item name="contribution Christian Graf" href="graf.md" />
-            <item name="contribution Martin Lunelli" href="lunelli.md" />
+        <menu name="Contributions">
+            <item name="Christian Graf" href="graf.html" />
+            <item name="Martin Lunelli" href="lunelli.html" />
 
         </menu>
         <menu ref="reports" />

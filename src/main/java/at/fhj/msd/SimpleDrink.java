@@ -7,7 +7,7 @@
 
 package at.fhj.msd;
 /**
- * Class represents a simple drink liquid which can be used in
+ * class represents a simple drink liquid which can be used in
  * drinks
  */
 public class SimpleDrink extends Drink{
@@ -16,7 +16,7 @@ public class SimpleDrink extends Drink{
      */
     protected Liquid l;
     /**
-     * Creates a SimpleDrink object with given age and
+     * creates a SimpleDrink object with given age and
      * liquid
      *
      * @param name name of drink
@@ -28,7 +28,7 @@ public class SimpleDrink extends Drink{
     }
 
     /**
-     * Returns volume of liquid l
+     * returns volume of liquid l
      *
      * @return the volume of drink in litre
      */
@@ -38,7 +38,7 @@ public class SimpleDrink extends Drink{
     }
 
     /**
-     * Returns alcohol volume percent of liquid l
+     * returns alcohol volume percent of liquid l
      *
      * @return alcohol volume percent
      */
@@ -47,7 +47,7 @@ public class SimpleDrink extends Drink{
         return l.getAlcoholPercent();
     }
     /**
-     * Gives information if drink is alcoholic or not
+     * gives information if drink is alcoholic or not
      *
      * @return true when alcoholic liquids are present, otherwise false
      */

@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * This testclass tests the SimpleDrink class
+ * this testclass tests the SimpleDrink class
  */
 
 public class SimpleDrinkTests
@@ -23,7 +23,7 @@ public class SimpleDrinkTests
     }
 
     /**
-     * Testing getVolume() method of the SimpleDrink class by creating a SimpleDrink object and calling
+     * testing getVolume() method of the SimpleDrink class by creating a SimpleDrink object and calling
      * the getVolume() method.
      */
 
@@ -36,7 +36,7 @@ public class SimpleDrinkTests
     }
 
     /**
-     * Testing getAlcoholPercent() method of the SimpleDrink class by creating a SimpleDrink object and calling
+     * testing getAlcoholPercent() method of the SimpleDrink class by creating a SimpleDrink object and calling
      * the getAlcoholPercent() method.
      */
 
@@ -49,7 +49,7 @@ public class SimpleDrinkTests
     }
 
     /**
-     * Testing isAlcoholic() method of the SimpleDrink class by creating a SimpleDrink object and calling
+     * testing isAlcoholic() method of the SimpleDrink class by creating a SimpleDrink object and calling
      * the isAlcoholic() method.
      */
 
@@ -62,7 +62,7 @@ public class SimpleDrinkTests
     }
 
     /**
-     * Testing isAlcoholic() method of the SimpleDrink class by creating a SimpleDrink object and calling
+     * testing isAlcoholic() method of the SimpleDrink class by creating a SimpleDrink object and calling
      * the isAlcoholic() method.
      */
 

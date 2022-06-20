@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 /**
- * Base class for a queue of strings
+ * base class for a queue of strings
  */
 public class StringQueue implements IQueue
 {

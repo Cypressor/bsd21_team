@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
- * This testclass tests the Drink class
+ * this testclass tests the Drink class
  */
 
 public class DrinkTest
@@ -15,7 +15,7 @@ public class DrinkTest
     void setUp() {}
 
     /**
-     * This tests if the name-getter and name-setter of Drink class are working.
+     * this tests if the name-getter and name-setter of Drink class are working.
      */
 
     @Test

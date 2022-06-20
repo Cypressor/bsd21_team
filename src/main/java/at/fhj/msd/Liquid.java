@@ -7,7 +7,7 @@
 
 package at.fhj.msd;
 /**
- * Class represents a liquid which can be used in
+ * class represents a liquid which can be used in
  * drinks
  */
 public class Liquid {
@@ -26,7 +26,7 @@ public class Liquid {
     private double alcoholPercent;
 
     /**
-     * Creates new liquid with given name, volume and
+     * creates new liquid with given name, volume and
      * alcoholPercent
      *
      * @param name name of liquid
@@ -40,7 +40,7 @@ public class Liquid {
     }
 
     /**
-     * Getter for name
+     * getter for name
      *
      * @return name of liquid
      */
@@ -49,7 +49,7 @@ public class Liquid {
     }
 
     /**
-     * Setter for name
+     * setter for name
      *
      * @param name new name
      */
@@ -58,7 +58,7 @@ public class Liquid {
     }
 
     /**
-     * Getter for volume
+     * getter for volume
      *
      * @return volume of liquid (in liter)
      */
@@ -67,7 +67,7 @@ public class Liquid {
     }
 
     /**
-     * Setter for volume
+     * setter for volume
      *
      * @param volume new volume
      */
@@ -76,7 +76,7 @@ public class Liquid {
     }
 
     /**
-     * Getter for alcoholPercent
+     * getter for alcoholPercent
      *
      * @return alcoholPercent (e.g. 40)
      */
@@ -84,7 +84,7 @@ public class Liquid {
         return alcoholPercent;
     }
     /**
-     * Setter for alcoholPercent
+     * setter for alcoholPercent
      *
      * @param alcoholPercent new alcoholPercent
      */

@@ -7,18 +7,16 @@
 
 package at.fhj.msd;
 /**
- * Class represents a coktail which can be used in
+ * class represents a cocktail which can be used in
  * drinks
  */
 public class Cocktail extends Drink{
-    /**
-     * uses several liquids
-     */
+
     protected Liquid l1;
     protected Liquid l2;
     protected Liquid l3;
     /**
-     * Creates a Cocktail object with given name and
+     * creates a Cocktail object with given name and
      * liquids
      *
      * @param name name of drink
@@ -34,7 +32,7 @@ public class Cocktail extends Drink{
     }
 
     /**
-     * Returns volume of liquid l1
+     * returns total volume of all liquids combined
      *
      * @return the volume of drink in litre
      */
@@ -46,7 +44,7 @@ public class Cocktail extends Drink{
     }
 
     /**
-     * Returns alcohol volume percent of liquid l
+     * returns alcohol volume percent of the cocktail
      *
      * @return alcohol volume percent
      */
@@ -58,7 +56,7 @@ public class Cocktail extends Drink{
         return alcoholPercent;
     }
     /**
-     * Gives information if drink is alcoholic or not
+     * gives information if drink is alcoholic or not
      *
      * @return true when alcoholic liquids are present, otherwise false
      */
@@ -69,4 +67,6 @@ public class Cocktail extends Drink{
         }
         return false;
     }
+
+
 }

@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 /**
- * Base class for a queue of drinks
+ * base class for a queue of drinks
  */
 public class DrinkQueue implements IDrinkQueue
 {

@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * This testclass tests the Liquid class
+ * this testclass tests the Liquid class
  */
 
 public class LiquidTest {

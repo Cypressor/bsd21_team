@@ -14,7 +14,7 @@ import java.util.NoSuchElementException;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * This testclass tests the StringQueue class
+ * this testclass tests the StringQueue class
  */
 
 public class StringQueueTest {
@@ -24,7 +24,7 @@ public class StringQueueTest {
 
     /**
      * testing the offer() method by creating a string queue and calling the offer() method
-     * It is expected to return true, since the queue is not full already.
+     * it is expected to return true, since the queue is not full already.
      */
     @Test
     void offerTest1()
@@ -36,7 +36,7 @@ public class StringQueueTest {
 
     /**
      * testing the offer() method by creating a string queue and calling the offer() method
-     * It is expected to return false, since the queue is full already.
+     * it is expected to return false, since the queue is full already.
      */
     @Test
     void offerTest2()
@@ -49,7 +49,7 @@ public class StringQueueTest {
 
     /**
      * testing the poll()method by creating a string queue and calling the poll() method
-     * It is expected to return the string that it has been passed by the offer() method
+     * it is expected to return the string that it has been passed by the offer() method
      */
     @Test
     void pollTest1()
@@ -62,7 +62,7 @@ public class StringQueueTest {
 
     /**
      * testing the poll()method by creating a string queue and calling the poll() method
-     * It is expected to return null, since it has not been passed any string.
+     * it is expected to return null, since it has not been passed any string.
      */
     @Test
     void pollTest2()
@@ -73,7 +73,7 @@ public class StringQueueTest {
 
     /**
      * testing the remove()method of the string queue class by calling a remove() method
-     * It is expected to return null, because the queue is not empty.
+     * it is expected to return null, because the queue is not empty.
      */
     @Test
     void removeTest1()
@@ -86,7 +86,7 @@ public class StringQueueTest {
 
     /**
      * testing the remove()method of the string queue class by calling a remove() method
-     * It is expected to return an exception, because the queue is empty.
+     * it is expected to return an exception, because the queue is empty.
      */
     @Test
     void removeTest2()
@@ -98,7 +98,7 @@ public class StringQueueTest {
 
      /**
      * testing the peek()method of the string queue class by calling a peek() method
-     * It is expected to return the string that it has been passed by the offer() method
+     * it is expected to return the string that it has been passed by the offer() method
      */
     @Test
     void peekTest1()
@@ -111,7 +111,7 @@ public class StringQueueTest {
 
     /**
      * testing the peek()method of the string queue class by calling a peek() method
-     * It is expected to return null, since it has not been passed any string.
+     * it is expected to return null, since it has not been passed any string.
      */
     @Test
     void peekTest2()
@@ -122,7 +122,7 @@ public class StringQueueTest {
 
     /**
      * testing the element()method of the string queue class by calling the element() method
-     * It is expected to return the string that it has been passed by the offer() method
+     * it is expected to return the string that it has been passed by the offer() method
      */
     @Test
     void elementTest1()
@@ -135,7 +135,7 @@ public class StringQueueTest {
 
     /**
      * testing the element()method of the string queue class by calling the element() method
-     * It is expected to return an exception, because the queue is empty.
+     * it is expected to return an exception, because the queue is empty.
      */
     @Test
     void elementTest2()

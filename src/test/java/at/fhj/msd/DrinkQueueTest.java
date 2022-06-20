@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 /**
- * This testclass tests the DrinkQueue class
+ * this testclass tests the DrinkQueue class
  */
 
 public class DrinkQueueTest
@@ -24,8 +24,8 @@ public class DrinkQueueTest
     void setUp() {}
 
     /**
-     * Testing the offer() method of the drinkQueue class by calling the offer() method.
-     * It is expected to return true, since the queue is not full already.
+     * testing the offer() method of the drinkQueue class by calling the offer() method.
+     * it is expected to return true, since the queue is not full already.
      */
 
     @Test
@@ -38,8 +38,8 @@ public class DrinkQueueTest
     }
 
     /**
-     * Testing the offer() method of the drinkQueue class by calling the offer() method.
-     * It is expected to return false, since the queue is full already.
+     * testing the offer() method of the drinkQueue class by calling the offer() method.
+     * it is expected to return false, since the queue is full already.
      */
 
     @Test
@@ -53,8 +53,8 @@ public class DrinkQueueTest
     }
 
     /**
-     * Testing the poll() method of the drinkQueue class by calling the poll() method.
-     * It is expected to return the object that it has been passed by the offer() method.
+     * testing the poll() method of the drinkQueue class by calling the poll() method.
+     * it is expected to return the object that it has been passed by the offer() method.
      */
 
     @Test
@@ -68,8 +68,8 @@ public class DrinkQueueTest
     }
 
     /**
-     * Testing the poll() method of the drinkQueue class by calling the poll() method.
-     * It is expected to return null since it has not been passed any object.
+     * testing the poll() method of the drinkQueue class by calling the poll() method.
+     * it is expected to return null since it has not been passed any object.
      */
 
     @Test
@@ -80,8 +80,8 @@ public class DrinkQueueTest
     }
 
     /**
-     * Testing the remove() method of the drinkQueue class by calling the remove() method.
-     * It is expected to return null, because the queue is not empty.
+     * testing the remove() method of the drinkQueue class by calling the remove() method.
+     * it is expected to return null, because the queue is not empty.
      */
 
     @Test
@@ -94,8 +94,8 @@ public class DrinkQueueTest
         assertEquals(null,drinkQueue.remove(), "expected: null");
     }
     /**
-     * Testing the remove() method of the drinkQueue class by calling the remove() method.
-     * It is expected to return an exception, because the queue is empty.
+     * testing the remove() method of the drinkQueue class by calling the remove() method.
+     * it is expected to return an exception, because the queue is empty.
      */
 
     @Test
@@ -107,8 +107,8 @@ public class DrinkQueueTest
     }
 
     /**
-     * Testing the peek() method of the drinkQueue class by calling the peek() method.
-     * It is expected to return the object that it has been passed by the offer() method.
+     * testing the peek() method of the drinkQueue class by calling the peek() method.
+     * it is expected to return the object that it has been passed by the offer() method.
      */
 
     @Test
@@ -122,8 +122,8 @@ public class DrinkQueueTest
     }
 
     /**
-     * Testing the peek() method of the drinkQueue class by calling the peek() method.
-     * It is expected to return null since it has not been passed any object.
+     * testing the peek() method of the drinkQueue class by calling the peek() method.
+     * it is expected to return null since it has not been passed any object.
      */
 
     @Test
@@ -134,8 +134,8 @@ public class DrinkQueueTest
     }
 
     /**
-     * Testing the element() method of the drinkQueue class by calling the element() method.
-     * It is expected to return the object that it has been passed by the offer() method.
+     * testing the element() method of the drinkQueue class by calling the element() method.
+     * it is expected to return the object that it has been passed by the offer() method.
      */
 
     @Test
@@ -149,8 +149,8 @@ public class DrinkQueueTest
     }
 
     /**
-     * Testing the element() method of the drinkQueue class by calling the element() method.
-     * It is expected to return an exception, because the queue is empty.
+     * testing the element() method of the drinkQueue class by calling the element() method.
+     * it is expected to return an exception, because the queue is empty.
      */
 
     @Test

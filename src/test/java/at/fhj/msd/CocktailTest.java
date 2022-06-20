@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
- * This testclass tests the cocktail class
+ * this testclass tests the cocktail class
  */
 
 public class CocktailTest
@@ -21,7 +21,7 @@ public class CocktailTest
     void setUp() {}
 
     /**
-     * Testing getVolume() method of the cocktail class by creating a cocktail object and calling
+     * testing getVolume() method of the cocktail class by creating a cocktail object and calling
      * the getVolume() method.
      */
 
@@ -36,7 +36,7 @@ public class CocktailTest
     }
 
     /**
-     * Testing getAlcoholPercent() method of the cocktail class by creating a cocktail object and calling
+     * testing getAlcoholPercent() method of the cocktail class by creating a cocktail object and calling
      * the getAlcoholPercent() method.
      */
 
@@ -50,7 +50,7 @@ public class CocktailTest
         assertEquals(12.4,genericCocktail.getAlcoholPercent(), "expected: 12.4");
 
         /**
-         * Testing isAlcoholic method of the cocktail class by creating a cocktail object and calling
+         * testing isAlcoholic method of the cocktail class by creating a cocktail object and calling
          * the isAlcoholic() method.
          */
 
@@ -66,7 +66,7 @@ public class CocktailTest
     }
 
     /**
-     * Testing isAlcoholic method of the cocktail class by creating a cocktail object and calling
+     * testing isAlcoholic method of the cocktail class by creating a cocktail object and calling
      * the isAlcoholic() method.
      */
 
