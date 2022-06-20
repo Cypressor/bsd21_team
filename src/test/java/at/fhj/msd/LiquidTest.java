@@ -11,6 +11,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * This testclass tests the Liquid class
+ */
+
 public class LiquidTest {
     @BeforeEach
     public void setUp() {
@@ -22,6 +26,7 @@ public class LiquidTest {
     @Test
     public void getNameTest() {
         Liquid icetea = new Liquid("Icetea", 250, 0);
+        icetea.setName("Icetea");
         assertEquals("Icetea", icetea.getName(),"expected icetea");
     }
 
@@ -31,6 +36,7 @@ public class LiquidTest {
     @Test
     public void getVolumeTest() {
         Liquid cola = new Liquid("Cola", 330, 0);
+        cola.setVolume(330);
         assertEquals(330, cola.getVolume(),"expected cola");
     }
 
@@ -40,6 +46,7 @@ public class LiquidTest {
     @Test
     public void getAlcoholPercentTest() {
         Liquid beer = new Liquid("Beer", 500, 5.1);
+        beer.setAlcoholPercent(5.1);
         assertEquals(5.1, beer.getAlcoholPercent(),"expected beer");
     }
 

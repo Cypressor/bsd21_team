@@ -1,5 +1,4 @@
-# Project QUEUE (Groupwork: Exercise 7)
-
+# Contributor: Christian Graf
 ## Contributions:
 
 1. Added my developer information in pom.xml.

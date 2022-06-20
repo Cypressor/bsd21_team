@@ -35,5 +35,4 @@
             - [x] StringQueue
 
 - [x] "mvn test" works
-
-- [ ] "mvn site" works
+- [x] "mvn site" works

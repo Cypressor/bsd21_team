@@ -13,6 +13,10 @@ import java.util.NoSuchElementException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+/**
+ * This testclass tests the DrinkQueue class
+ */
+
 public class DrinkQueueTest
 {
 

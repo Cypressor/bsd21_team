@@ -1,3 +1,5 @@
+#Contributor: Martin Lunelli
+
 ## Contributions:
 - [x] Add Martin's developer information in pom.xml.
 - [x] Martin adds address to Git repository.
@@ -16,4 +18,5 @@
 - [x] SimpleDrink
 - [x] DrinkQueue
 - [x] Cocktail
+- [x] Drink
 

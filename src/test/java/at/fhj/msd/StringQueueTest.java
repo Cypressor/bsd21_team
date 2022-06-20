@@ -13,6 +13,10 @@ import java.util.NoSuchElementException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * This testclass tests the StringQueue class
+ */
+
 public class StringQueueTest {
     @BeforeEach
     public void setUp() {
