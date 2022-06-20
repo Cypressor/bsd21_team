@@ -1,0 +1,15 @@
+<project name="BSD21 Documentation Demo">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+
+        <menu name="Overview">
+            <item name="contribution Christian Graf" href="graf.md" />
+            <item name="contribution Martin Lunelli" href="lunelli.md" />
+
+        </menu>
+        <menu ref="reports" />
+        <menu ref="parent" />
+        <menu ref="modules" />
+    </body>
+</project>
