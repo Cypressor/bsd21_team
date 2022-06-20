@@ -9,7 +9,7 @@
 - [x] Add Martin's developer information in pom.xml.
 - [x] Add Christian's developer information in pom.xml.
 - [x] Martin adds address to Git repository.
-- [ ] Christian writes README.md.
+- [x] Christian writes README.md.
 - [x] Martin fixes three bugs by using a new branch.
 
 - ### Christian implements:
@@ -25,7 +25,7 @@
 - ### Martin creates tests:
     - [x] creates tests for existing implementation
     - [x] creates testfile for new Drinks version with a class of your choice
-    - [ ] discribe in JavaDoc & comments how to test
+    - [x] discribe in JavaDoc & comments how to test
         - Martin's tests:
             - [x] SimpleDrink
             - [x] DrinkQueue
@@ -34,15 +34,6 @@
             - [x] Liquid
             - [x] StringQueue
 
-- [ ] mvn test works
+- [x] "mvn test" works
 
-
-
-- [ ] mvn site works
-
-
-
-
-
-
-
+- [ ] "mvn site" works
